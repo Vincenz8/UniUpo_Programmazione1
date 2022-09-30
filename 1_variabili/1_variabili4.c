@@ -2,7 +2,8 @@
 
 void main(){
 
-    float x, y, h, area_trapezio;
+    float x, y, h;
+    float area_trapezio;
 
     printf("Inserisci base1: ");
     scanf("%f", &x);

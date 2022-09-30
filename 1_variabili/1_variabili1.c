@@ -2,7 +2,8 @@
 
 void main(){
 
-    int x, y, prodotto;
+    int x, y;
+    int prodotto;
 
     x = 3;
     y = 7;

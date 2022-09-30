@@ -2,7 +2,8 @@
 
 void main(){
 
-    int x, y, h, area_trapezio;
+    int x, y, h;
+    int area_trapezio;
 
     x = 3;
     y = 7;

@@ -9,7 +9,6 @@ void main(){
 
     float n1, n2, n3, n4;
     float somma, media, prodotto;
-    int size;
 
     printf("Inserisci n1: ");
     scanf("%f", &n1);
@@ -20,7 +19,10 @@ void main(){
     printf("Inserisci n4: ");
     scanf("%f", &n4);
 
-    size = sizeof(int);
-    printf("Size: %d\n", size);
+    somma = n1 + n2 + n3 + n4;
+    media = (n1 + n2 + n3 + n4) / 4;
+    prodotto = n1 * n2 * n3 * n4;
+
+    printf("Somma: %f\nMedia: %f\nProdotto: %f\n", somma, media, prodotto);
 
 }

@@ -2,7 +2,8 @@
 
 void main(){
 
-    int x, y, area_rettangolo;
+    int x, y;
+    int area_rettangolo;
 
     x = 3;
     y = 4;
