@@ -1,11 +1,11 @@
-# 1 
+# 1)
 Scrivere un programma che, sfruttando le funzioni, permetta di calcolare l’area di un cerchio o di un quadrato. 
 
 L’utente inserisce un numero,dichiarando se si tratta del raggio di un cerchio o del lato di un quadrato.
 
 Se l’utente inserisce un numero negativo viene visualizzato un errore, altrimenti il sistema calcola l’area in modo appropriato.
 
-# 2
+# 2)
 Scrivere un programma che permetta di inserire due vettori lunghi N e stampi un terzo vettore i cui elementi sono la somma degli elementi dei
 due vettori in input. 
 
@@ -14,7 +14,7 @@ Il programma utilizza 3 funzioni:
 - Calcola somma
 - Stampa vettore
 
-# 3
+# 3)
 Scrivere un programma che calcola il fattoriale di un numero. 
 
 Il programma conterrà una funzione denominata fatt, che calcola il fattoriale di un numero intero passato come parametro e che restituisce il risultato.
@@ -26,7 +26,7 @@ Il calcolo del fattoriale deve essere ottenuto in maniera iterativa (ciclo for o
     f att(N ) = 1 ∗ 2 ∗ 3 ∗ . . . ∗ (N )
     f att(0) = 1
 
-# 4 
+# 4)
 Scrivere un programma che, utilizzando le funzioni, calcoli la media, il massimo e il minimo di un array di numeri reali.
 
 Utilizzare le funzioni:
@@ -37,7 +37,7 @@ Utilizzare le funzioni:
 - min(): calcola e ritorna il valore minimo
 - stampa(): visualizza il vettore, la media e il massimo e il minimo
 
-# 5
+# 5)
 Si scriva un programma C che richiami tre funzioni:
 
 - Inserimento degli elementi in un vettore
@@ -59,7 +59,7 @@ prima occorrenza;
 
 - se il valore x non è presente nel vettore, si restituisca -1.
 
-# 6 
+# 6)
 Creare un programma che permetta di cifrare e di decifrare una stringa (considerare solo caratteri minuscoli e senza spazi) attraverso l’algoritmo
 di cifratura di Cesare.
 
@@ -82,7 +82,7 @@ permetta di:
 - decriptarla
 - stampare la stringa
 
-# 7 
+# 7)
 Scrivere un programma in linguaggio C che esegue la fusione di due vettori di interi ordinati in modo crescente. 
 
 Il programma attraverso apposite funzioni deve eseguire le seguenti operazioni:
