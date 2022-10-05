@@ -3,9 +3,11 @@
 
 Implementazione degli algoritmi in linguaggio C dell'anno 2022/2023.
 
-All'interno della cartella vi è la consegna dell'esercizio con le soluzioni svolte da me:
+All'interno delle cartelle vi è la consegna dell'esercizio e le soluzioni svolte da me.
 
-- Vincenzo Russotto (20052037@studenti.uniupo.it)
+Se ci sono domande o programmi che ritenete non funzionanti, aprite un Issues oppure contattatemi:
+
+        20052037@studenti.uniupo.it
 
 Non sono presenti gli eseguibili, nel caso:
 - Linux
@@ -16,6 +18,6 @@ Non sono presenti gli eseguibili, nel caso:
 
         Eddai usa Linux
 
-Potete usarlo sia per vedere eventuali soluzioni(anche se ci sono quelle del prof caricate sulla piattaforma dir) o semplicemente per non dover scaricare ogni volta tutte le consegne.
+Potete usare la repository sia per vedere eventuali soluzioni(anche se ci sono quelle del prof caricate sulla piattaforma Dir) o semplicemente per non dover scaricare ogni volta tutte le consegne.
 
 Enjoy !
