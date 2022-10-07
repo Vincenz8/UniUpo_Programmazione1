@@ -3,7 +3,7 @@
 
 Implementazione degli algoritmi in linguaggio C dell'anno 2022/2023.
 
-All'interno delle cartelle vi è la consegna dell'esercizio e alcune soluzioni svolte da me.
+All'interno delle cartelle vi è la consegna dell'esercizio e alcune soluzioni svolte da me(potrebbero esserci più versioni di un esercizio, potete guardarli nella History del file).
 
 Se ci sono domande o programmi che ritenete non funzionanti, aprite un Issues oppure contattatemi:
 
