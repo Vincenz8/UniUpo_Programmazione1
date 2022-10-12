@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void main(){
+
     int n_numeri;
     int n, n_max;
     int i;
@@ -17,6 +18,7 @@ void main(){
         n_max = (n > n_max) ? n : n_max;
 
     }
+    
     printf("Il maggiore e' %d\n", n_max);
 
 }

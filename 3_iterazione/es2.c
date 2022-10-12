@@ -19,13 +19,10 @@ void main(){
         scanf("%d", &n);
 
         if (n > n_max1){
-
             n_max2 = n_max1;
             n_max1 = n;
-
         } 
         else if (n > n_max2)
-
             n_max2 = n;
             
     }
