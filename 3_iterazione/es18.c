@@ -20,10 +20,8 @@ void main(){
                 printf("Y ");
 
         }
-        
+
         printf("\n");
     }
-
-    
 
 }
