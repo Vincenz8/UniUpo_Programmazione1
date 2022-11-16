@@ -30,7 +30,6 @@ void main(){
     }else
         printf("Errore numero negativo");
 
-    
 }
 
 /*area_quadrato: calcola l'area del quadrato*/
@@ -42,7 +41,5 @@ float area_quadrato(float lato){
 
 /*area_cerchio: calcola l'area del cerchio*/
 float area_cerchio(float raggio){
-
     return 2 * PI * raggio;
-
 }
