@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define MAX 20
-
+#define N_ALFABETO 26
 
 void cripta_stringa(char *stringa, int k);
 void decripta_stringa(char *stringa, int k);
@@ -34,7 +34,7 @@ void cripta_stringa(char *stringa, int k)
 
             if (stringa[i] + k > 'z'){
 
-                stringa[i] = 96 + (stringa[i] + k - 'z');
+                stringa[i] -= N_ALFABETO - k; 
 
             }else{
 
@@ -57,7 +57,7 @@ void decripta_stringa(char *stringa, int k)
             
             if (stringa[i] - k < 'a'){
 
-                stringa[i] = 123 - ('a' - (stringa[i] - k));
+                stringa[i] += N_ALFABETO - k;
 
             }else{
 
