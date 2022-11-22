@@ -69,9 +69,7 @@ Il numero k rappresenta la chiave (0 < k < 26).
 
 Per esempio, con 
 
-    k = 3 : ’a’
-    
-diventa ’d’, ’m’ diventa ’p’, ’z’ diventa ’c’. 
+    k = 3 : ’a’ diventa ’d’, ’m’ diventa ’p’, ’z’ diventa ’c’. 
 
 La stringa si decripta eseguendo l’operazione inversa. 
 
