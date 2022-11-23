@@ -6,7 +6,7 @@
 void cripta_stringa(char *stringa, int k);
 void decripta_stringa(char *stringa, int k);
 
-void main()
+int main()
 {
     char stringa[MAX];
 
@@ -26,41 +26,42 @@ void cripta_stringa(char *stringa, int k)
     int minuscola;
     int i;
 
-    for (i = 0; stringa[i] != '\0'; i++){
-        
+    for (i = 0; stringa[i] != '\0'; i++)
+    { 
         minuscola = (stringa[i] >= 'a' && stringa[i] <= 'z');
 
-        if (minuscola){
-
-            if (stringa[i] + k > 'z'){
-
+        if (minuscola)
+        {
+            if (stringa[i] + k > 'z')
+            {
                 stringa[i] -= N_ALFABETO - k; 
-
-            }else{
-
+            }
+            else
+            {
                 stringa[i]+= k;
             }
         }
     }
 }
+
 /*cripta_stringa: effettua l'algoritmo di decifratura di Cesare su una stringa*/
 void decripta_stringa(char *stringa, int k)
 {
     int minuscola;
     int i;
 
-    for (i = 0; stringa[i] != '\0'; i++){
-
+    for (i = 0; stringa[i] != '\0'; i++)
+    {
         minuscola = (stringa[i] >= 'a' && stringa[i] <= 'z');
 
-        if (minuscola){
-            
-            if (stringa[i] - k < 'a'){
-
+        if (minuscola)
+        {
+            if (stringa[i] - k < 'a')
+            {
                 stringa[i] += N_ALFABETO - k;
-
-            }else{
-
+            }
+            else
+            {
                 stringa[i] -= k;
             }
         }

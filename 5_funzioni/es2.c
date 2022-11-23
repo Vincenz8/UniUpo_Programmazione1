@@ -6,8 +6,8 @@ void init_float_vettore(float *vettore);
 void somma_vettori(float *risultato, float *vettore1, float *vettore2);
 void stampa_vettore(float *vettore);
 
-void main(){
-    
+int main()
+{
     float vet1[N], vet2[N];
     float risultato[N];
 
@@ -24,43 +24,46 @@ void main(){
 
     printf("\nRisultato\n");
     stampa_vettore(risultato);
-
 }
 
 /*init_float_vettore: inizializza un vettore contenente float*/
-void init_float_vettore(float *vettore){
-
+void init_float_vettore(float *vettore)
+{
     int i;
 
-    for (i = 0; i < N; i++){
-
+    for (i = 0; i < N; i++)
+    {
         printf("Inserisci n in posizione[%d]: ", i);
         scanf("%f", &vettore[i]);
-
     }
 }
 
 /*somma_vettori: esegue la somma tra vettori contenenti float*/
-void somma_vettori(float *risultato, float *vettore1, float *vettore2){
-
+void somma_vettori(float *risultato, float *vettore1, float *vettore2)
+{
     int i;
 
-    for (i = 0; i < N; i++){
+    for (i = 0; i < N; i++)
+    {
         risultato[i] = vettore1[i] + vettore2[i];
     }
 }
 
 /*stampa_vettore: stampa un vettore contenente float*/
-void stampa_vettore(float *vettore){
-
+void stampa_vettore(float *vettore)
+{
     int i;
 
     printf("[");
 
-    for (i = 0; i < N; i++){
-        if (i == N-1){
+    for (i = 0; i < N; i++)
+    {
+        if (i == N-1)
+        {
             printf("%.2f]", vettore[i]);
-        }else{
+        }
+        else
+        {
             printf("%.2f, ", vettore[i]);
         }
     }

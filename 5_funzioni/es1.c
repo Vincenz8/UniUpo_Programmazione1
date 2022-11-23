@@ -4,8 +4,8 @@
 float area_cerchio(float raggio);
 float area_quadrato(float lato);
 
-void main(){
-
+int main()
+{
     float area;
     float n;
     int selezione;
@@ -18,28 +18,36 @@ void main(){
     printf("Inserisci %c: ", l_or_r);
     scanf("%f", &n);
 
-    if (n > 0){
-
-        if (selezione == 0){
+    if (n > 0)
+    {
+        if (selezione == 0)
+        {
             area = area_cerchio(n);
-        }else{
+        }
+        else
+        {
             area = area_quadrato(n);
         }
 
         printf("Area = %f", area);
-    }else
-        printf("Errore numero negativo");
 
+    }
+    else
+    {
+        printf("Errore numero negativo");
+    }
 }
 
 /*area_quadrato: calcola l'area del quadrato*/
-float area_quadrato(float lato){
+float area_quadrato(float lato)
+{
     return lato * lato;
 }
 
 #define PI 3.14
 
 /*area_cerchio: calcola l'area del cerchio*/
-float area_cerchio(float raggio){
+float area_cerchio(float raggio)
+{
     return 2 * PI * raggio;
 }
