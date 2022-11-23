@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
     int x, y;
     int y_pos, x_0, y_0, x_neg;
