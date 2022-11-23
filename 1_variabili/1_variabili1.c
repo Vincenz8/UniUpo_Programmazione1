@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void main(){
-
+int main()
+{
     int x, y;
     int prodotto;
 

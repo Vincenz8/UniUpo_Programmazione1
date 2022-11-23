@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void main(){
-
+int main()
+{
     int x, y;
     int area_rettangolo;
 
@@ -10,5 +10,4 @@ void main(){
     area_rettangolo = x * y;
     
     printf("Lato1 = (%d)\nLato2 = (%d)\nArea = (%d)", x, y, area_rettangolo);
-
 }

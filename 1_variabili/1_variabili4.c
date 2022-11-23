@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void main(){
-
+int main()
+{
     float x, y, h;
     float area_trapezio;
 
@@ -15,5 +15,4 @@ void main(){
     area_trapezio = ((x + y) * h) / 2;
 
     printf("Area = %f\n", area_trapezio);
-
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void main(){
-
+int main()
+{
     int n1, n2;
 
     printf("Inserisci numero 1: ");
@@ -9,5 +9,4 @@ void main(){
     printf("Inserisci numero 2: ");
     scanf("%d", &n2);
     printf("%d e %d\n", n2, n1);
-
 }

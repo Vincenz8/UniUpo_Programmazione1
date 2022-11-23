@@ -1,12 +1,8 @@
-/*
-Scrivere un programma che permetta di inserire 4 numeri float e ne stampi:
-la somma,la media, il prodotto.
-*/
 
 #include <stdio.h>
 
-void main(){
-
+int main()
+{
     float n1, n2, n3, n4;
     float somma, media, prodotto;
 
@@ -24,5 +20,4 @@ void main(){
     prodotto = n1 * n2 * n3 * n4;
 
     printf("Somma: %f\nMedia: %f\nProdotto: %f\n", somma, media, prodotto);
-
 }
