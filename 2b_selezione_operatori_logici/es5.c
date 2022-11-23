@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void main(){
-
+void main()
+{
     int x, y;
     int y_pos, x_0, y_0, x_neg;
 
@@ -44,5 +44,4 @@ void main(){
     else 
 
         printf("Il punto si trova nel quarto quadrante\n");
-
 }
