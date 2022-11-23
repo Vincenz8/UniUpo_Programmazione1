@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void main(){
-
+int main()
+{
     int n1, n2, n3;
     int n_max;
 
@@ -31,6 +31,6 @@ void main(){
     n_max = (n_max > n3) ? n_max : n3;
     
     */
-    printf("Il massimo e' %d\n", n_max);
 
+    printf("Il massimo e' %d\n", n_max);
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void main(){
-
+int main()
+{
     int n;
 
     printf("Inserisci un numero: ");
@@ -14,5 +14,4 @@ void main(){
     else
 
         printf("Il numero non e' pari\n");
-
 }

@@ -1,8 +1,8 @@
 #include <stdio.h>
 // #include <math.h> per usare il metodo fabs()
 
-void main(){
-
+int main()
+{
     int n;
 
     printf("Inserisci un numero: ");
@@ -14,6 +14,5 @@ void main(){
     // casting della funzione fabs(restituisce un double)
     // n = (int) fabs(n);   
 
-    printf("Valore assoluto: %d\n", n);
-    
+    printf("Valore assoluto: %d\n", n);  
 }

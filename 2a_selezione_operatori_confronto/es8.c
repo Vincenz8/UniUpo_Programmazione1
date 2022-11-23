@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void main(){
-
+int main()
+{
     float n1, n2;
     float risultato;
     char op;
@@ -13,7 +13,8 @@ void main(){
     printf("Inserisci operatore (+, -, *, /): ");
     scanf("%s", &op);
 
-    switch (op){
+    switch (op)
+    {
         case '+':
             risultato = n1 + n2;
             break;

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void main(){
-
+int main()
+{
     int n1, n2;
 
     n1 = 3;
@@ -14,5 +14,4 @@ void main(){
     else
         
         printf("%d non e' un multiplo di %d\n", n1, n2);
-
 }

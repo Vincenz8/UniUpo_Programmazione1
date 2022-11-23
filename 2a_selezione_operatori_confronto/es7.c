@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+
 /*
 La compilazione di questo programma necessita della flag -lm
 
@@ -14,8 +15,9 @@ es7.c:(.text+0x8e): undefined reference to `pow'
 collect2: error: ld returned 1 exit status
 
 */
-void main(){
 
+int main()
+{
     const float PI = 3.14;
     int raggio;
     float area;
@@ -31,5 +33,4 @@ void main(){
     } else
     
         printf("IL RAGGIO DEVE ESSERE > O\n");
-
 }

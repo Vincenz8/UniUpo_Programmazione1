@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-void main(){
-
+int main()
+{
     float a, b, c;
     float delta;
     float x;
@@ -17,19 +17,19 @@ void main(){
     delta = pow(b, 2) - (4 * a * c); //formula discriminante 
     printf("Delta: %f\n", delta);
 
-    if (delta > 0){
-
+    if (delta > 0)
+    {
         float x2;
         x = (-b + sqrt(delta)) / (2 * a);
         x2 = (-b - sqrt(delta)) / (2 * a);
         printf("x1 = %.3f\tx2 = %.3f\n", x, x2);
-
-    }else if (delta == 0){
-
+    }
+    else if (delta == 0)
+    {
         x = -b / (2 * a);
         printf("x = %f\n", x);
-
-    }else
+    }
+    else
         printf("Nessuna soluzione\n");
 
 }
