@@ -3,8 +3,8 @@
 
 #define MAXLEN 50
 
-void main(){
-
+int main()
+{
     char s[MAXLEN];
     int i = 0;
 
@@ -13,7 +13,8 @@ void main(){
 
     int c_uguali = (s[i] == s[(strlen(s)-1)-i]); //uguaglianza tra primo carattere ed ultimo carattere
 
-    while(c_uguali && i < strlen(s)/2){
+    while(c_uguali && i < strlen(s)/2)
+    {
         i++;
     }
 
@@ -21,5 +22,4 @@ void main(){
         printf("%s", s);
     else
         printf("Non e' palindroma");
-
 }

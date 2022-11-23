@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void main(){
-    
+int main()
+{
     int n_numeri;
     int i;
 
@@ -10,21 +10,20 @@ void main(){
 
     int n[n_numeri];
 
-    for(i = 0; i < n_numeri; i++){
-
+    for(i = 0; i < n_numeri; i++)
+    {
         printf("Inserisci n[%d]: ", i);
         scanf("%d", &n[i]);
-
     }
 
     i = 1;
-    while(i < n_numeri){
+    while(i < n_numeri)
+    {
 
         if (n[i] == n[i-1])
             i++;
         else
-            break;
-            
+            break;      
     }
 
     if (i == n_numeri)
@@ -32,5 +31,4 @@ void main(){
     
     else
         printf("I numeri non sono tutti uguali");
-
 }

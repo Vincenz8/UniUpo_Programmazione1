@@ -5,8 +5,8 @@
 #define N_ALFABETO (int) strlen(ALFABETO)
 #define MAX_TEXT 100
 
-void main(){
-
+int main()
+{
     char testo[MAX_TEXT];
     int occorrenze[N_ALFABETO];
     int n_vocali, n_consonanti;
@@ -18,16 +18,17 @@ void main(){
     n_vocali = n_consonanti = 0;
 
     // inizializzazione occorrenze
-    for (i = 0;i < N_ALFABETO; i++){
+    for (i = 0;i < N_ALFABETO; i++)
+    {
         occorrenze[i] = 0;
     }
 
-    for (i = 0; i < (int)strlen(testo); i++){
-
-        for (j = 0; j < N_ALFABETO; j++){
-
-            if (testo[i] == ALFABETO[j]){
-
+    for (i = 0; i < (int)strlen(testo); i++)
+    {
+        for (j = 0; j < N_ALFABETO; j++)
+        {
+            if (testo[i] == ALFABETO[j])
+            {
                 occorrenze[j]++;
 
                 if (j < 5)
@@ -36,17 +37,15 @@ void main(){
                     n_consonanti++;
 
                 break;
-
             } 
         }
-
     }
     
     // stampa occorrenze
     printf("N vocali: %d\tN consonanti: %d\n", n_vocali, n_consonanti);
 
-    for (i = 0; i < N_ALFABETO; i++){
+    for (i = 0; i < N_ALFABETO; i++)
+    {
         printf("%c: %d\n", ALFABETO[i], occorrenze[i]);
     }
-
 }
