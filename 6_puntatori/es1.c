@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void scambio(int *n1, int *n2);
 void ordina(int *n1, int *n2, int *n3);
 
