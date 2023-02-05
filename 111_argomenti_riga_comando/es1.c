@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            int risultato;
+            int risultato = 0;
 
             sommatoria(numeri, argc - 1, &risultato);
             
