@@ -11,5 +11,8 @@ Nella cartella sono presenti i miei appelli d'esame ed i seguenti esami svolti:
 - 14/07/2021
 - 17/02/2022
 - 18/02/2022
+- 03/03/2022
+- 03/04/2022
+- 01/07/2022
 
 Le consegne di questi esami sono presenti sul Dir.
