@@ -1,8 +1,4 @@
 # ***UniUpo-Programmazione 1 2022/2023***
-<<<<<<< HEAD
-
-=======
->>>>>>> 03bf8a21379382d160e9f5eb13cb55b57776841e
 
 Implementazione degli algoritmi in linguaggio C dell'anno 2022/2023.
 
